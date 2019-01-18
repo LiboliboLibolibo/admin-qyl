@@ -1,0 +1,47 @@
+.handleAction {
+  margin-top: 30px;
+  text-align: center;
+  button {
+    margin-right: 20px;
+  }
+}
+
+.imgShowDiv {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #ccc;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.contentLabel {
+  :global {
+    .ant-form-item-label {
+      text-align: left;
+    }
+  }
+}
+
+.treeDiv {
+  width: 100%;
+  padding-left: 10px;
+  height: 100%;
+  overflow: auto;
+  background: #f2f2f2;
+}
+
+.flex_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  > div {
+    //flex: 1,
+    display: flex;
+  }
+}

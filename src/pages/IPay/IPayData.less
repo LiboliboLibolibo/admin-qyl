@@ -1,0 +1,66 @@
+.pay_title {
+  padding: 0px 0 20px 0;
+  font-size: 20px;
+  color: #000;
+  > span {
+    font-size: 14px;
+    color: #666;
+  }
+}
+.school_list_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .school_item {
+    width: 49%;
+    height: 30vh;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    padding: 2vh 2vw;
+    .item_name {
+      line-height: 4vh;
+      font-size: 18px;
+      color: #000;
+      font-weight: 500; 
+    }
+    .item_time {
+      line-height: 3vh;
+      font-size: 16px;
+    }
+    .item_total_money {
+      height: 12vh;
+      margin: 2vh 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      >div {
+        width: 50%;
+
+      }
+      >div:nth-child(1) {
+        font-size: 40px;
+        color: red;
+        font-weight: 500;
+        line-height: 9vh;
+      }
+      >div:nth-child(2) {
+        padding: 2vh 2vw;
+        font-size: 16px;
+        border-left: 1px solid #ccc;
+        line-height: 4vh;
+      }
+    }
+    .item_yes_money {
+      line-height: 3vh;
+
+    }
+  }
+}
+
+:global .antd-pro-components-number-info-index-numberInfo .antd-pro-components-number-info-index-numberInfoValue > span {
+  font-size: 16px !important;
+  color: #000 !important;
+  line-height: 16px !important;
+}

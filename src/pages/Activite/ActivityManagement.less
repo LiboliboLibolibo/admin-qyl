@@ -1,0 +1,81 @@
+.createAcitvite {
+  margin-bottom: 20px;
+  text-align: right;
+  :global {
+    .ant-btn {
+      height: 40px;
+      border-radius: 0;
+      padding: 0 30px;
+      font-size: 16px;
+      font-weight: 900;
+    }
+  }
+}
+
+.web {
+  :global .ant-modal-content {
+    border-radius: 0 !important;
+    :global .ant-modal-body {
+      padding: 0 !important;
+      margin: 0 !important;
+      height: 667px !important;
+    }
+  }
+}
+
+.call_back {
+  line-height: 50px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: #2d313d;
+}
+.top_title {
+  line-height: 50px;
+  font-size: 16px;
+  color: #2d313d;
+  text-align: center;
+}
+.top_share {
+  line-height: 50px;
+  font-size: 16px;
+  color: #2d313d;
+}
+
+.content_main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 3%;
+  .content_main_title {
+    line-height: 36px;
+    font-size: 16px;
+    color: #2d313d;
+  }
+  .content_main_time {
+    font-size: 12px;
+    color: #c2c2c2;
+    margin-bottom: 10px;
+  }
+  .content_main_content {
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    height: 520px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    > img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  .content_main_content::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.result_action {
+  padding-top: 20px;
+  text-align: center;
+  >button {
+    margin-right: 20px;
+  }
+}
